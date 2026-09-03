@@ -18,8 +18,19 @@ correlation.
   JavaScript
 
 The site is intentionally dependency-light: semantic HTML, a shared stylesheet,
-and a single JavaScript file. Its visual system uses near-black and graphite
-surfaces, high-contrast off-white typography, and restrained dark-red accents.
+and a single JavaScript file. Its visual system is limited to `#353535` and
+`#e0e0e0`, plus opacity variants of those same values.
+
+## Reproducible animations
+
+The three explanatory diagrams are generated with Matplotlib and Pillow:
+
+```sh
+python3 scripts/animations/generate.py
+```
+
+The script writes optimized animated GIFs and static reduced-motion fallbacks to
+`assets/animations/`.
 
 ## GitHub Pages
 
