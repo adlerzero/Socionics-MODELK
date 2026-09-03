@@ -3,27 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#353535" />
+  <meta name="description" content="Axiomatic Socionics — Analytic Notes — an argument in the Model K research system by VOID / Adler Zero." />
+  <meta name="theme-color" content="#090909" />
   <title>Axiomatic Socionics — Analytic Notes — Model K</title>
-  <link rel="stylesheet" href="style.css" />
-  <script>
-    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } };
-  </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <link rel="stylesheet" href="style.css?v=20260903a" />
+  <script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$']]},chtml:{scale:.95}};</script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script defer src="script.js?v=20260903d"></script>
 </head>
-<body>
+<body data-page="reader">
+  <a class="skip-link" href="#article">Skip to article</a>
+  <div class="reading-progress" data-reading-progress aria-hidden="true"></div>
   <header class="reading-nav">
-    <a class="model-mark" href="index.html">Model <span>K</span></a>
-    <nav aria-label="Argument navigation"><a href="index.html">Arguments</a></nav>
+    <a class="model-mark" href="index.html"><span>MODEL</span> <b>K</b></a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="index.html#arguments">Arguments</a><a href="index.html#structure">Structure</a><a href="index.html#glossary">Glossary</a><a href="index.html#about">About</a>
+    </nav>
+    <div class="header-actions">
+      <button class="command-trigger" type="button" data-command-open aria-label="Open command search"><span>Search</span><kbd>⌘ K</kbd></button>
+      <button class="menu-trigger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu"><span>Menu</span><i aria-hidden="true"></i></button>
+    </div>
   </header>
-  <main id="top">
-    <article class="article shell">
+  <noscript><nav class="noscript-nav" aria-label="Primary navigation without JavaScript"><a href="index.html">Model K</a><a href="index.html#arguments">Arguments</a><a href="index.html#structure">Structure</a><a href="index.html#glossary">Glossary</a><a href="index.html#about">About</a></nav></noscript>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+    <a href="index.html">Model K</a><a href="index.html#arguments">Arguments</a><a href="index.html#structure">Structure</a><a href="index.html#glossary">Glossary</a><a href="index.html#about">About</a>
+  </nav>
+  <main class="reader-shell" id="article">
+    <aside class="reader-toc" aria-label="Table of contents"><p>Contents</p><nav data-toc></nav></aside>
+    <article class="article">
       <header class="article-head">
-        <p class="article-type">04 / Epistemological Notes</p>
+        <p class="article-type">04 / Epistemology / Interpretation</p>
         <h1>Axiomatic Socionics — Analytic Notes</h1>
         
+        <details class="mobile-toc"><summary>Table of contents</summary><nav data-toc></nav></details>
       </header>
-      <div class="article-body">
+      <div class="article-body" data-article-body>
 <h1>Introductio</h1>
 <p>As customary, we shall provide a brief summary of the material addressed, reiterating warnings and potential argumentative pitfalls. First and foremost, this is not an attempt to reinterpret the theory in a revisionist manner, nor to establish a new school of socionics. What is proposed here is a correct interpretation, strictly bound to what something is <em>in itself</em>, and not to the contingent effects of its manifestation—that is, not to a description of the subjective observation projected by the subject onto the object.</p>
 <p>For this reason, specific points will be raised in which the theory is commonly employed in an erroneous manner. At various moments, the argument will approach a critique of what ought to have been correctly described; at others, it will assume an explicitly didactic character, in the sense of exposing what something is with rigor.</p>
@@ -85,7 +99,17 @@
 
       </div>
     </article>
+    <aside class="reader-meta" aria-label="Article information">
+      <p>Article data</p>
+      <dl><div><dt>Category</dt><dd>Epistemology / Interpretation</dd></div><div><dt>Reading time</dt><dd data-reader-time>Calculating…</dd></div><div><dt>Difficulty</dt><dd>Intermediate</dd></div><div><dt>Author</dt><dd>VOID / Adler Zero</dd></div></dl>
+      <div class="related-concepts"><p>Related concepts</p><a href="index.html#glossary?term=static">Static</a><a href="index.html#glossary?term=dynamic">Dynamic</a><a href="index.html#glossary?term=mental">Mental</a><a href="index.html#glossary?term=vital">Vital</a></div>
+    </aside>
   </main>
-  <footer class="shell reading-footer"><a href="axiomatic-approach.html">← Previous</a><a href="index.html">Arguments →</a></footer>
+  <nav class="reader-pagination" aria-label="Argument pagination"><a href="axiomatic-approach.html"><span>← Previous</span><strong>Axiomatic Elements</strong></a><a href="index.html#structure"><span>Continue →</span><strong>Structure of the Model</strong></a></nav>
+  <dialog class="command-palette" data-command-dialog aria-labelledby="command-title">
+    <div class="command-head"><span aria-hidden="true">⌕</span><input id="command-title" type="search" data-command-input placeholder="Search Model K…" autocomplete="off" /><kbd>Esc</kbd></div>
+    <div class="command-results" data-command-results></div>
+    <p class="command-help"><span>↑↓ Navigate</span><span>↵ Open</span></p>
+  </dialog>
 </body>
 </html>
